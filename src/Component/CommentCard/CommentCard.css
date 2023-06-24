@@ -1,0 +1,35 @@
+.CommentCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.4rem;
+}
+.CommentUserInfoContainer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+}
+.CommentUserInfoWrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.CommentUserInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.CommentUser,
+.CommentToUser {
+  display: flex;
+  color: grey;
+  font-size: 1.4rem;
+}
+.CommentToUser span {
+  font-size: 1.2rem;
+  color: cornflowerblue;
+}
+.CommentContent {
+  margin: 1rem 0rem;
+}
