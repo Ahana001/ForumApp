@@ -4,9 +4,13 @@ import { PostCard } from "../PostCard/PostCard";
 import { useLocation, Link } from "react-router-dom";
 import { BiArrowBack } from "react-icons/bi";
 import { SortContainer } from "../SortContainer/SortContainer";
+import { useContext } from "react";
+import { DataContext } from "../../Context/DataContext";
 
 export function PostList({ list }) {
   const location = useLocation();
+  const { state } = useContext(DataContext);
+
   return (
     <>
       <div className="PostListContainer">
@@ -19,7 +23,7 @@ export function PostList({ list }) {
           </div>
         ) : (
           <div className="PostListHeader">
-            <div> Posts </div>
+            <div> {state.sortBy.replaceAll("_", " ")} </div>
           </div>
         )}
         <ul>
