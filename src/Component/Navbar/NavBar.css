@@ -8,6 +8,7 @@
 }
 .NavBarContainer h2 {
   color: rgb(83, 131, 221);
-  padding: 1rem;
+  padding-left: 1rem;
   text-transform: capitalize;
+  font-size: 2rem;
 }
