@@ -68,6 +68,7 @@ export function PostCard({ post }) {
             })}
           </div>
           <div className="PostContent">{post.postDescription}</div>
+          <div className="HorizontalLine"></div>
           <div className="ActionButton">
             {actionButtons.map((button) => {
               if (button.label === "bookmark") {

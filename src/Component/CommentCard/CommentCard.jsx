@@ -27,6 +27,7 @@ export function CommentCard({ comment }) {
             Reply to <span>@ {state?.user?.username}</span>
           </div>
           <div className="CommentContent">{comment.comment}</div>
+          <div className="HorizontalLine"></div>
           <div className="ActionButton">
             {commentActionButtons.map((button) => {
               return <div key={button.label}>{button.icon}</div>;
