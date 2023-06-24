@@ -7,7 +7,7 @@
 .CommentUserInfoContainer {
   display: flex;
   gap: 2rem;
-  align-items: center;
+  align-items: flex-start;
   padding: 1rem;
 }
 .CommentUserInfoWrapper {
