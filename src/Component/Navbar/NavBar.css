@@ -1,0 +1,13 @@
+.NavBarContainer {
+  background-color: rgb(245, 244, 244);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100vw;
+}
+.NavBarContainer h2 {
+  color: rgb(83, 131, 221);
+  padding: 1rem;
+  text-transform: capitalize;
+}
